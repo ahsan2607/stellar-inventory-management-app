@@ -1,0 +1,1 @@
+# stellar-inventory-management-app
