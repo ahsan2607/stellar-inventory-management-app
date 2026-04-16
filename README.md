@@ -1,101 +1,108 @@
-# Stellar Notes DApp
+# Stellar Inventory DApp
 
-**Stellar Notes DApp** - Blockchain-Based Decentralized Note-Taking System
+**Stellar Inventory DApp** - Blockchain-Based Decentralized Storage Management System
 
 ## Project Description
 
-Stellar Notes DApp is a decentralized smart contract solution built on the Stellar blockchain using Soroban SDK. It provides a secure, immutable platform for managing personal notes directly on the blockchain. The contract ensures that your data is stored transparently and is only manageable through predefined smart contract functions, eliminating reliance on centralized database providers.
+Stellar Inventory DApp is a decentralized smart contract solution built on the Stellar blockchain using Soroban SDK. It provides a secure, transparent platform for managing inventory data directly on the blockchain. The contract ensures that all stored items are handled through predefined smart contract functions, eliminating reliance on centralized inventory systems.
 
-The system allows users to create, view, and delete notes, leveraging the efficiency and security of the Stellar network. Each note is uniquely identified and stored within the contract's instance storage, ensuring data persistence and reliability.
+The system allows users to add, view, update, and remove inventory items, leveraging the efficiency and security of the Stellar network. Each item is uniquely identified and stored within the contract's instance storage, ensuring data persistence, traceability, and reliability.
 
 ## Project Vision
 
-Our vision is to revolutionize personal productivity in the digital age by:
+Our vision is to modernize storage and inventory management by:
 
-- **Decentralizing Data**: Moving note-taking from centralized servers to a global, distributed blockchain
-- **Ensuring Ownership**: Empowering users to have complete control and ownership over their digital thoughts and information
-- **Guaranteeing Immutability**: Providing a permanent, tamper-proof record of notes that cannot be altered or deleted by third parties
-- **Enhancing Privacy**: Leveraging blockchain security to protect personal information from unauthorized access
-- **Building Trustless Systems**: Creating a platform where data integrity is guaranteed by code, not by company promises
+- **Decentralizing Data**: Moving inventory systems from centralized databases to a distributed blockchain network
+- **Ensuring Ownership**: Giving users full control over their inventory records without third-party dependency
+- **Guaranteeing Transparency**: Providing a verifiable and auditable record of all inventory operations
+- **Enhancing Reliability**: Preventing unauthorized or hidden modifications to inventory data
+- **Building Trustless Systems**: Ensuring all operations are validated and enforced by smart contract logic
 
-We envision a future where digital information is truly personal and sovereign, empowering individuals with complete autonomy over their digital assets.
+We envision a future where inventory systems are transparent, tamper-resistant, and globally accessible without centralized control.
 
 ## Key Features
 
-### 1. **Simple Note Creation**
+### 1. **Item Registration**
 
-- Create notes with just one function call
-- Specify title and content for each note
-- Automated ID generation for unique identification
-- Persistent storage on the Stellar blockchain
+- Add new items to the inventory with a single function call
+- Define item name, quantity, and storage location
+- Automatic ID generation for unique identification
+- Persistent on-chain storage
 
 ### 2. **Efficient Data Retrieval**
 
-- Fetch all stored notes in a single call
-- Structured data representation for easy frontend integration
-- Quick access to your entire note collection
-- Real-time synchronization with the blockchain state
+- Retrieve all stored inventory items in one call
+- Structured data format for easy frontend integration
+- Real-time reflection of current inventory state
+- Simplified inventory tracking
 
-### 3. **Secure Deletion**
+### 3. **Stock Management**
 
-- Remove specific notes using their unique IDs
-- Permanent removal from the contract storage
-- Clean and efficient storage management
-- Immediate update of the note list after deletion
+- Update item quantities dynamically
+- Reflect real-world stock changes directly on-chain
+- Maintain accurate inventory levels
+- Immediate persistence after updates
 
-### 4. **Transparency and Security**
+### 4. **Secure Item Removal**
 
-- View all note activities on the blockchain
-- Blockchain-based verification of all storage actions
-- Immutable records of note creation and deletion
-- Protected against unauthorized modifications
+- Remove items using unique IDs
+- Permanent deletion from storage
+- Clean inventory state management
+- Consistent synchronization after removal
+
+### 5. **Transparency and Security**
+
+- All inventory operations are visible on-chain
+- Verifiable transaction history
+- Immutable record of item creation, updates, and deletion
+- Protection against unauthorized manipulation
 
 ### 5. **Stellar Network Integration**
 
-- Leverages the high speed and low cost of Stellar
-- Built using the modern Soroban Smart Contract SDK
-- Scalable architecture for growing note collections
-- Interoperable with other Stellar-based services
+- Utilizes Stellar’s fast and low-cost transaction system
+- Built with Soroban Smart Contract SDK
+- Scalable for growing inventory datasets
+- Compatible with other Stellar-based applications
 
 ## Contract Details
 
-- Contract Address: CBLU4IUASQ4WUMOXBFLZRSBBLILGOH33GS4LUPKFBCCCMJCDQNMF7G2M
+- Contract Address: CCC2WMVQKRQ2HC2CPM7PTELBID4J7KNE4LPJOIZ77W2YHCZVUROIAP3G
   ![alt text](screenshot.png)
 
 ## Future Scope
 
 ### Short-Term Enhancements
 
-1. **Note Encryption**: Support for end-to-end encryption of note content for enhanced privacy
-2. **Category Management**: Add tags and categories to organize notes efficiently
-3. **Rich Text Support**: Extend support beyond plain text to include Markdown and formatted content
-4. **Search Functionality**: Implement advanced search filters for large note collections
+1. **Item Categorization**: Add categories or tags for better inventory organization
+2. **Batch Operations**: Support bulk addition or removal of items
+3. **Low-Stock Alerts**: Implement threshold-based notifications for restocking
+4. **Search Functionality**: Enable filtering and searching across inventory items
 
 ### Medium-Term Development
 
-5. **Collaborative Notes**: Implement multi-signature requirements for shared or collaborative note-taking
-   - Shared access for multiple addresses
-   - Permission-based editing and viewing
-   - Version history tracking
-6. **Notification System**: Off-chain bridge to alert users of new updates or shared notes
-7. **Asset Attachment**: Capability to attach digital assets or tokens to specific notes
-8. **Inter-Contract Integration**: Allow other smart contracts to interact with and store data in the notes contract
+5. **Multi-User Access Control**: Role-based permissions for inventory management
+   - Admin and operator roles
+   - Controlled update and deletion rights
+   - Activity tracking per user
+6. **Audit Logs**: Maintain detailed logs for all inventory changes
+7. **Asset Tokenization**: Represent inventory items as tokenized assets
+8. **Inter-Contract Integration**: Enable interaction with supply chain or logistics contracts
 
 ### Long-Term Vision
 
-9. **Cross-Chain Synchronization**: Extend note storage to multiple blockchain networks
-10. **Decentralized UI Hosting**: Host the frontend on IPFS or similar decentralized platforms
-11. **AI-Powered Summarization**: Optional integration with AI to help users summarize their notes
-12. **Privacy Layers**: Implement zero-knowledge proofs for completely private note content
-13. **DAO Governance**: Community-driven protocol improvements and feature prioritization
-14. **Identity Management**: Integration with decentralized identity (DID) systems for user management
+9. **Cross-Chain Inventory Sync**: Extend inventory tracking across multiple blockchains
+10. **Decentralized Dashboard**: Host UI on IPFS or similar decentralized platforms
+11. **AI-Based Forecasting**: Predict stock requirements using AI models
+12. **Privacy Layers**: Selective disclosure of inventory data using cryptographic methods
+13. **DAO Governance**: Community-driven control over contract upgrades
+14. **Supply Chain Integration**: End-to-end tracking from production to delivery
 
 ### Enterprise Features
 
-15. **Corporate Documentation**: Adapt the system for secure corporate record-keeping
-16. **Immutable Logging**: Create time-locked logs for audit purposes
-17. **Automated Reporting**: Automatic note triggers for periodic reporting
-18. **Multi-Language Support**: Expand accessibility with internationalization
+15. **Warehouse Management Systems**: Adaptation for large-scale enterprise logistics
+16. **Immutable Audit Trails**: Compliance-ready audit logs for regulatory needs
+17. **Automated Restocking**: Smart triggers for inventory replenishment
+18. **Multi-Language Support**: Global usability with localization support
 
 ---
 
@@ -107,12 +114,13 @@ We envision a future where digital information is truly personal and sovereign, 
 
 ## Getting Started
 
-Deploy the smart contract to Stellar's Soroban network and interact with it using the three main functions:
+Deploy the smart contract to Stellar's Soroban network and interact with it using the core functions:
 
-- `create_note()` - Create a new note with a title and content
-- `get_notes()` - Retrieve all stored notes from the contract
-- `delete_note()` - Remove a specific note by its ID
+- `add_item()` - Add a new item with name, quantity, and location
+- `get_items()` - Retrieve all stored inventory items
+- `remove_item()` - Delete an item by its ID
+- `update_quantity()` - Update stock quantity of an existing item
 
 ---
 
-**Stellar Notes DApp** - Securing Your Thoughts on the Blockchain
+**Stellar Inventory DApp** - Managing Assets Transparently on the Blockchain
